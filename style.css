@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+th{
+text-align: left;
+padding-left: 2rem;
+}
+.hey{
+    /* height: 60vh; */
+    background-color:#283143;
+    background-image:url(hey.jpg);
+    background-size: cover;
+    /* background-position-y:px; */
+    margin: 0%;
+    padding: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Roboto';
+    color: #43617D;
+    background-color: lightgrey;
+}
+h2{
+    background-color: #5A8DAB;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    color: black; 
+    padding-left: 2rem; 
+    margin-right: 25%; 
+}
+.container{
+    margin-left: 20%;
+}
+/* 
+.tone{
+    list-style: none;
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-bottom: 2px;
+    padding: 20px;
+    background-color: #0E0024;
+
+} */
+
+nav {
+    background-color: #0E0024;
+    padding: 20px 0px;
+}
+
+.tone {
+    width: 80vw;
+    margin:  auto;
+
+    display: flex;
+    
+    flex-direction: row;
+    mar
+}
+.tone li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+.tone a {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .tone {
+        flex-direction: column;
+    }
+}
